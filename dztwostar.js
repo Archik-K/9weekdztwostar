@@ -34,7 +34,7 @@ button.addEventListener("click", () => {
 	sum = document.querySelector(".sum");
 	message = `Через год у вас будет ${
 		(+sum.value / 100) * interestRate + +sum.value
-	} руб. на счету, где вместо  выведите сколько получится на счету с учетом процентной ставки 7% годовых`;
+	} руб. на счету.`;
 	total.textContent = message; // Через год у вас будет XXX руб. на счету", где вместо ХХХ выведите сколько получится на счету с учетом процентной ставки 7% годовых
 });
 console.log();
