@@ -12,7 +12,6 @@ const currency = "руб";
 
 let message;
 
-interestRate = 7;
 
 console.log(
 	`Ваш депозит на начало расчетного периода составлял ${
@@ -29,6 +28,9 @@ console.log(
 		growth + " " + currency
 	}., и на данный момент ваш депозит составляет ${30150 + " " + currency}.`
 ); // К концу расчетного прирост составил 150 руб и на данный момент ваш депозит составляет 30150 руб
+
+
+interestRate = 7;
 
 button.addEventListener("click", () => {
 	sum = document.querySelector(".sum");
